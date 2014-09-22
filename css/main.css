@@ -129,8 +129,10 @@ HOME PAGE
 *********************************/
 
 .photo {
-	background-image: url("img/pizza-photo.jpg");
+	height: 858px;
+	width: 1280px;
 	background-color: grey;
+	background-image: url("../img/pizza-photo.jpg");
 }
 
 
