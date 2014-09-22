@@ -11,10 +11,19 @@ a {
 	padding: 0 5%;
 }
 
+img {
+	max-width: 100%;
+}
+
 
 /*********************************
 GENERAL
 *********************************/
+
+
+body {
+	background-color: #fff;
+}
 
 
 
@@ -22,32 +31,119 @@ GENERAL
 HEADING
 *********************************/
 
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1, h2 {
+	color: #fff;
+	font-size: 82px;
+}
+
 .page-header {
 	text-align: center;
 	margin: 0;
-	background: orange;
+	background: none;
+	border-bottom: 0;
+}
+
+header {
+	background: white;
+	border-color: white;
+}
+
+h1 {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #00004B;
+}
+
+nav li {
+	text-align: center;
+	background-color: #00004B;
+}
+
+.nav-pills>li+li {
+	margin-left: 1;
 }
 
 
 /*********************************
 NAVIGATION
 *********************************/
+nav {
 
+	font-family: 'Roboto', sans-serif;
+}
+
+nav a.selected {
+	color: #CDCDCD;
+}
 
 
 /*********************************
 FOOTER
 *********************************/
 
+p {
+	color: #3E5C5F;
+	font-family: 'Roboto', serif;
+}
 
 
 /*********************************
-PAGE: 
+MENU PAGE
 *********************************/
 
+#menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #CDCDCD;
+	color: black;
+}
+
+#menu li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	font-family: 'Roboto', serif;
+	text-align: center;
+	color: 00004B;
+	font-weight: 700;
+}
+/*********************************
+CONTACT PAGE
+*********************************/
+
+/*********************************
+HOME PAGE
+*********************************/
+
+.photo {
+	background-image: url("img/pizza-photo.jpg");
+	background-color: grey;
+}
 
 
 /*********************************
 COLORS
 *********************************/
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected:hover {
+	color: slateblue;
+}
+
 
