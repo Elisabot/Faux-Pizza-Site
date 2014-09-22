@@ -92,6 +92,10 @@ p {
 	font-family: 'Roboto', serif;
 }
 
+img {
+	float: center;
+}
+
 
 /*********************************
 MENU PAGE
