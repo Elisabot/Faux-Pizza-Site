@@ -140,6 +140,15 @@ CONTACT PAGE
 HOME PAGE
 *********************************/
 
+/*html { 
+  background: url(../img/pizza-photo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
 .photo {
 	height: 858px;
 	width: 1280px;
