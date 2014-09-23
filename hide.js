@@ -17,3 +17,12 @@
     document.getElementById("div3").style.display = "none";
     document.getElementById("div4").style.display = "block";
   };
+
+
+// Javascript to add pizza name
+
+function addName() {
+    document.getElementById("name?").style.display = "none";
+
+}
+
