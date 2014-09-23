@@ -165,6 +165,14 @@ HOME PAGE
 ORDER PAGE
 *********************************/
 
+#div1 {
+	display: block;
+}
+
+#div2, #div3, #div4 {
+	display: none;
+}
+
 
 /*********************************
 COLORS
