@@ -186,4 +186,19 @@ nav a.selected:hover {
 	color: slateblue;
 }
 
+/*********************************
+ORDER - PIZZA NAME
+*********************************/
 
+#peppPizza {
+    display: none;
+}
+
+
+#supPizza {
+    display: none;
+}
+
+#cheesePizza {
+    display: none;
+}

@@ -20,9 +20,6 @@
 
 
 // Javascript to add pizza name
-
-function addName() {
-    document.getElementById("name?").style.display = "none";
-
-}
+    // If the user click on pepperoni, display the pepperoni name
+        // Will need to cache information from menu.html to order.html
 
