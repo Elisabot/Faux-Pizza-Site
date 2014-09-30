@@ -24,39 +24,45 @@
 			</nav>
 		</div>
 			</header>
-			<div class="container">
-			<form action="#" method="POST" name="toppings_form">
-                <div id="div1"><h2 id="crust-size">Pizza Size </h2>
-                    <input type="radio" name="size" value="9inch">9 Inch<br>
-                    <input type="radio" name="size" value="12inch">12 Inch<br>	
-                    <input type="radio" name="size" value="15inch">15 Inch<br>
-                    <button type="button" id="button1" onclick="hide();">Next</button>
-                </div>
-                <div id="div2"><h2 id="crust-type">Crust Type</h2>
-                    <input type="radio" name="crust" value="Thin">Thin Crust<br>
-                    <input type="radio" name="crust" value="Pillow">Pillow Crust<br>
-                    <button type="button" id="button2" onclick="hide2();">Next</button>
-                </div>	
+                <div class="container">
+                    <!-- To use when we will know Ajax calls -- 
+                       <div id="pizzaNameDiv"> 
+                        <p> You selected </p>
+                        <p id="peppPizza">a Pepperoni Pizza</p>
+                        <p id="supPizza">a Supreme Pizza</p>
+                        <p id="cheesePizza">a Cheese Pizza</p> 
+                    </div> -->
+                    <form action="#" method="POST" name="toppings_form">
+                    <div id="div1"><h2 id="crust-size">Pizza Size </h2>
+                        <input type="radio" name="size" value="9inch">9 Inch<br>
+                        <input type="radio" name="size" value="12inch">12 Inch<br>	
+                        <input type="radio" name="size" value="15inch">15 Inch<br>
+                        <button type="button" id="button1" onclick="hide();">Next</button>
+                    </div>
+                    <div id="div2"><h2 id="crust-type">Crust Type</h2>
+                        <input type="radio" name="crust" value="Thin">Thin Crust<br>
+                        <input type="radio" name="crust" value="Pillow">Pillow Crust<br>
+                        <button type="button" id="button2" onclick="hide2();">Next</button>
+                    </div>	
 
-                <div id="div3"><h2 id="extra-toppings">Extra Toppings</h2>					
-                    <input type="checkbox" name="toppings" value="Mozzarella">Mozzarella<br>
-                    <input type="checkbox" name="toppings" value="Feta">Feta<br>
-                    <input type="checkbox" name="toppings" value="Parmesan">Parmesan<br>
-                    <input type="checkbox" name="toppings" value="Spinach">Spinach<br>
-                    <input type="checkbox" name="toppings" value="SundriedTomatoes">Sun-Dried Tomatoes<br>
-                    <input type="checkbox" name="toppings" value="Sausage">Sausage<br>
-                    <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni<br>
-                    <input type="checkbox" name="toppings" value="ParmaHam">Parma Ham<br>
-                    <input type="checkbox" name="toppings" value="Bacon">Bacon<br>
-                    <button type="button" id="button3" onclick="hide3();">Next</button>
-                </div>
+                    <div id="div3"><h2 id="extra-toppings">Extra Toppings</h2>					
+                        <input type="checkbox" name="toppings" value="Mozzarella">Mozzarella<br>
+                        <input type="checkbox" name="toppings" value="Feta">Feta<br>
+                        <input type="checkbox" name="toppings" value="Parmesan">Parmesan<br>
+                        <input type="checkbox" name="toppings" value="Spinach">Spinach<br>
+                        <input type="checkbox" name="toppings" value="SundriedTomatoes">Sun-Dried Tomatoes<br>
+                        <input type="checkbox" name="toppings" value="Sausage">Sausage<br>
+                        <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni<br>
+                        <input type="checkbox" name="toppings" value="ParmaHam">Parma Ham<br>
+                        <input type="checkbox" name="toppings" value="Bacon">Bacon<br>
+                        <button type="button" id="button3" onclick="hide3();">Next</button>
+                    </div>
 
-                <div id="div4"><h2 id="pizza-count">How many of these pizzas would you like?</h2>
-                    <input type="number" name="quantity" mix="1" max="25">
-                    <button type="submit" id="button4" formaction="conformation.html">Next</button>
+                    <div id="div4"><h2 id="pizza-count">How many of these pizzas would you like?</h2>
+                        <input type="number" name="quantity" mix="1" max="25">
+                        <button type="submit" id="button4" formaction="conformation.html">Next</button>
+                    </div>
                 </div>
-            </form>
-		</div>
 		<footer>
 			<a href="https://twitter.com/"><img src="img/twitter-wrap.png" alt="twitter logo"></a>
 			<a href="https://www.facebook.com/"><img src="img/facebook-wrap.png" alt="facebook logo"></a>
