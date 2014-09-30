@@ -137,9 +137,13 @@ MENU PAGE
 	color: 00004B;
 	font-weight: 700;
 }
+
 /*********************************
 CONTACT PAGE
 *********************************/
+#photo-form {
+    width: 300px;
+}
 
 /*********************************
 HOME PAGE
@@ -187,8 +191,8 @@ nav a.selected:hover {
 }
 
 /*********************************
-ORDER - PIZZA NAME
-*********************************/
+ORDER - PIZZA NAME 
+
 
 #peppPizza {
     display: none;
@@ -202,3 +206,6 @@ ORDER - PIZZA NAME
 #cheesePizza {
     display: none;
 }
+
+*********************************/
+
