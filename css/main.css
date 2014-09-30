@@ -143,6 +143,15 @@ CONTACT PAGE
 *********************************/
 #photo-form {
     width: 300px;
+    float: left;
+    margin-left: 10%;
+}
+
+/* ADD COLUMNS WITH BOOTSTRAP */
+
+#contact_form {
+    float: right;
+    margin-right: 20%;
 }
 
 /*********************************
@@ -208,4 +217,6 @@ ORDER - PIZZA NAME
 }
 
 *********************************/
+
+
 
