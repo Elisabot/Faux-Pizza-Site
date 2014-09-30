@@ -169,8 +169,12 @@ ORDER PAGE
 	display: block;
 }
 
-#div2, #div3, #div4 {
+#div2, #div3, #div4, #div5 {
 	display: none;
+}
+
+.error-message {
+	color: red;
 }
 
 
