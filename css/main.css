@@ -87,6 +87,11 @@ nav a.selected {
 	color: #CDCDCD;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+
 
 /*********************************
 FOOTER
@@ -145,21 +150,14 @@ CONTACT PAGE
 HOME PAGE
 *********************************/
 
-/*html { 
-  background: url(../img/pizza-photo.jpg) no-repeat center center fixed; 
+#pizzaphoto { 
+  background: url("../img/pizza-photo.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
-
-
-.photo {
-	height: 858px;
-	width: 1280px;
-	background-color: grey;
-	background-image: url("../img/pizza-photo.jpg");
 }
+
 
 /*********************************
 ORDER PAGE
