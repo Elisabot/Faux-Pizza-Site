@@ -158,6 +158,31 @@ CONTACT PAGE
 #contact_form {
     float: right;
     margin-right: 20%;
+	margin-bottom: 50px;
+}
+
+.map ul {
+	line-height: 25px;
+	margin-right: 20px;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.map li {
+	list-style-type: none;
+}
+
+.map li:last-of-type {
+	margin-top: 20px;
+	color: red;
+}
+
+.map iframe {
+	border: solid #000 1px;
+	float: left;
+	margin: 0 0 0 10px;
+	
 }
 
 /*********************************
